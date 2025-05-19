@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iintoo Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="image-block">
+      <img src="assets/bg.jpg" alt="illustration" />
+      <img src="assets/logo.svg" alt="Logo" class="logo" width="50" />
+    </div>
+    <div class="form-block">
+      <h1>Get iintoo it today</h1>
+      <p class="subtitle">There is no charge or obligation upon registration.</p>
+
+      <div class="social-buttons">
+        <button class="facebook">
+          <img src="assets/facebook.svg" alt="Facebook" />
+          Register with Facebook
+        </button>
+        <button class="linkedin">
+          <img src="assets/linkedin.svg" alt="LinkedIn" />
+          Register with LinkedIn
+        </button>
+      </div>
+
+      <div class="divider">or</div>
+
+      <form>
+        <div class="input-row">
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Phone" />
+        </div>
+
+        <label class="section-label">What type of investor are you?</label>
+        <p class="sub-subtitle">Select the type of investor you are below.</p>
+        <div class="radio-row">
+          <div class="option">
+            <input type="checkbox" id="tip1" class="tooltip-toggle" hidden />
+            <label class="radio-label">
+              <input type="radio" name="type" checked />
+              Individual
+              <label for="tip1" class="tooltip-icon">?</label>
+              <div class="tooltip-text">Для тех, кто инвестирует от своего имени.</div>
+            </label>
+          </div>
+
+          <div class="option">
+            <input type="checkbox" id="tip2" class="tooltip-toggle" hidden />
+            <label class="radio-label">
+              <input type="radio" name="type" />
+              Business
+              <label for="tip2" class="tooltip-icon">?</label>
+              <div class="tooltip-text">Юридическое лицо, инвестирующее как компания.</div>
+            </label>
+          </div>
+
+          <div class="option">
+            <input type="checkbox" id="tip3" class="tooltip-toggle" hidden />
+            <label class="radio-label">
+              <input type="radio" name="type" />
+              IRA
+              <label for="tip3" class="tooltip-icon">?</label>
+              <div class="tooltip-text">Использование пенсионного счёта IRA.</div>
+            </label>
+          </div>
+
+          <div class="option">
+            <input type="checkbox" id="tip4" class="tooltip-toggle" hidden />
+            <label class="radio-label">
+              <input type="radio" name="type" />
+              Trust
+              <label for="tip4" class="tooltip-icon">?</label>
+              <div class="tooltip-text">Трастовый формат инвестирования.</div>
+            </label>
+          </div>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" /> I agree to the terms and receiving notifications from iintoo
+          </label>
+        </div>
+
+        <button type="submit" class="submit-button">Create Account</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
